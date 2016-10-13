@@ -12,3 +12,7 @@ c = a / b;
 console.log(c);
 // * is multiplACATION AND / IS DIVISION
 // use semicolons at the end of sentences
+var firstname = "james ";
+var lastname = "glenn";
+console.log(firstname + lastname);
+// || means or and @@ means and
