@@ -1,3 +1,5 @@
+var SalesWeek = require("./SalesWeek.js");
+
 function calculateWeeklySales(SalesWeek) {
         console.log(SalesWeek.sunday
         + SalesWeek.monday 
@@ -6,26 +8,15 @@ function calculateWeeklySales(SalesWeek) {
         + SalesWeek.thursday 
         + SalesWeek.friday 
         + SalesWeek.saturday);
+} 
     
-
-}
-var SalesWeek = {
-
-    sunday: 150,
-
-    monday: 134,
-
-    tuesday: 288,
-
-    wednesday: 272,
-
-    thursday: 331,
-
-    friday: 392,
-    
-    saturday: 405,
-};
-
+    SalesWeek.monday = 111;
+    SalesWeek.tuesday = 108;
+    SalesWeek.wednesday = 143;
+    SalesWeek.thursday = 220;
+    SalesWeek.friday = 238;
+    SalesWeek.saturday = 301;
+    SalesWeek.sunday = 201;
 
 
 
